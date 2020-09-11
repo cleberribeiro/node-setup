@@ -1,4 +1,4 @@
-import { Server } from "@controllers/server";
+import { Server } from "@controllers/Server";
 
 const srv = new Server();
 srv.start();
