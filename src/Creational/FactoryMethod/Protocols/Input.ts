@@ -1,7 +1,8 @@
-interface Input {
-    readonly type: string
-    readonly name: string
-    readonly id: string
-    readonly class: string
-    readonly value: string
+export interface Input {
+  readonly type?: string;
+  readonly name?: string;
+  readonly id?: string;
+  readonly styleClass?: string;
+  readonly value?: string;
+  render(): void;
 }
